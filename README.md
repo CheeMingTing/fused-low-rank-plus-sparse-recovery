@@ -5,3 +5,7 @@ This toolbox contains the Matlab implementation of fused low-rank plus sparse (f
 The toolbox currently includes the following:
 - Implementation of linearized ADMM algorithm for fused low-rank plus sparse decomposition (main function `fused_ls`)
 - Demo of fusedLS decomposition applied to simulated multi-subject connectivity data (script `example_simulation.m`)
+
+## Reference
+Chee-Ming Ting, Jeremy I Skipper, Steven L Small, Hernando Ombao "Separating Stimulus-Induced and Background Components of Dynamic Functional Connectivity in Naturalistic fMRI"
+arXiv preprint arXiv:2102.10331.
