@@ -8,4 +8,4 @@ The toolbox currently includes the following:
 
 ## Reference
 Chee-Ming Ting, Jeremy I Skipper, Steven L Small, Hernando Ombao "Separating Stimulus-Induced and Background Components of Dynamic Functional Connectivity in Naturalistic fMRI"
-arXiv preprint arXiv:2102.10331.
+[arXiv preprint arXiv:2102.10331](https://arxiv.org/abs/2102.10331#).
