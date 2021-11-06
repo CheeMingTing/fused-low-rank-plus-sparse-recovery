@@ -7,7 +7,7 @@ The toolbox currently includes the following:
 - Demo of fusedLS decomposition applied to simulated multi-subject connectivity data (script `example_simulation.m`)
 
 ## Usage
-The function `fused_ls()` implements the linearized ADMM algorithm for fused L+S decomposition (see Section III and IV in [Ting, et. al (2021)](https://arxiv.org/abs/2102.10331#)) of an input data matrix Z
+The function `fused_ls()` implements the linearized ADMM algorithm for fused L+S decomposition (see Section III and IV in [Ting, et. al (2021)](https://arxiv.org/abs/2102.10331#)) of an input data matrix `Z`
 
 `[L, S, rL, err] = fused_ls(Z, lambda1, lambda2, mu, tol, max_iter)`
 
