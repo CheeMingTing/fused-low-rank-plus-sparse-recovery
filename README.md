@@ -6,6 +6,13 @@ The toolbox currently includes the following:
 - Implementation of linearized ADMM algorithm for fused low-rank plus sparse decomposition (main function `fused_ls`)
 - Demo of fusedLS decomposition applied to simulated multi-subject connectivity data (script `example_simulation.m`)
 
+## Usage
+The function `fused_ls()` implements the linearized ADMM algorithm for fused L+S decomposition (see Section III and IV in [Ting, et. al (2021)](https://arxiv.org/abs/2102.10331#)) of an input data matrix Z
+
+`[L, S, rL, err] = fused_ls(Z, lambda1, lambda2, mu, tol, max_iter)`
+
+where the outputs `L` and `S` are respectively the recorved low-rank and sparse components, `rL` is the estimated rank and `err` is the reconstruction error. See documentation in the function header for more details on usage and information on input parameters.
+
 ## Reference
 Chee-Ming Ting, Jeremy I Skipper, Steven L Small, Hernando Ombao "Separating Stimulus-Induced and Background Components of Dynamic Functional Connectivity in Naturalistic fMRI"
 [arXiv preprint arXiv:2102.10331](https://arxiv.org/abs/2102.10331#).
