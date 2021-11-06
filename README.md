@@ -16,6 +16,6 @@ where the outputs `L` and `S` are respectively the recorved low-rank and sparse 
 ## Demo
 A demo of the fusedLS algorithm for separating shared/correlated structure and subject-specific backgroud components in multi-subject FC networks is provided in the script `example_simulation.m`. The multi-subject simulated networks are generated as a sum of correlated FC patterns across subjects and sparse individual background components. See Section IV in [Ting, et. al (2021)](https://arxiv.org/abs/2102.10331#) for details of simulation settings. External function 'generateSbm()' from [Dynamic Stochastic Block Models MATLAB Toolbox](https://github.com/IdeasLabUT/Dynamic-Stochastic-Block-Model) is required to simulate the community structure of the underlying correlated FC patterns.
 
-## Reference
+## Citation
 Chee-Ming Ting, Jeremy I Skipper, Steven L Small, Hernando Ombao "Separating Stimulus-Induced and Background Components of Dynamic Functional Connectivity in Naturalistic fMRI"
 [arXiv preprint arXiv:2102.10331](https://arxiv.org/abs/2102.10331#).
