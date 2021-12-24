@@ -59,7 +59,7 @@ if nargin < 6
     max_iter = 1000;
 end
     
-v = 1.5*max(abs(eigs(A'*A))); % Parameter v>0 controls proximity to L(k-1)
+v = 1.5*max(abs(eig(D'*D))); % Parameter v>0 controls proximity to L(k-1)
 
 % initial solution
 L     = zeros(N,M);
